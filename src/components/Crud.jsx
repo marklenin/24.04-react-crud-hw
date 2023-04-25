@@ -12,7 +12,7 @@ function Crud() {
   const [modal, setModal] = useState(false);
   const addToArray = () => {
     if (!name || !surname || !phone || !email) {
-      alert("Заполните поле!");
+      alert("Fill all inputs!");
       return;
     }
     let newArr = [...array];
@@ -55,7 +55,7 @@ function Crud() {
   return (
     <>
       <div className="container mt-4 ">
-        <h2>Add new contact</h2>
+        <h2>-Add new contact</h2>
       </div>
       <div className="inputsBtn container d-flex justify-content-between mt-3 ">
         <div>
@@ -110,6 +110,7 @@ function Crud() {
         </div>
       </div>
       <div className="container mt-5">
+        <h2>-Contacts</h2>
         <table className="table">
           <thead>
             <tr>
