@@ -1,0 +1,22 @@
+.modal {
+  /* display: none; */
+}
+p {
+  font-size: 0.9em;
+}
+
+.Card {
+  position: fixed;
+  top: 10%;
+  left: 40%;
+  background-color: azure;
+  padding: 0 0.5em;
+}
+
+.mainCard {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: beige;
+}
